@@ -4231,3 +4231,295 @@ AssertionError
                 ('dfs', 'passthrough'), ('pca', 'passthrough')],
          verbose=False)
 2022-03-10 17:13:46,398:INFO:setup() successfully completed......................................
+2022-03-10 17:20:11,976:INFO:Visual Rendered Successfully
+2022-03-10 17:20:42,384:INFO:Visual Rendered Successfully
+2022-03-10 17:21:04,492:INFO:Initializing finalize_model()
+2022-03-10 17:21:04,492:INFO:finalize_model(self=<pycaret.internal.pycaret_experiment.time_series_experiment.TSForecastingExperiment object at 0x000002A237600B20>, estimator=AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...), fit_kwargs=None, groups=None, model_only=True, display=None)
+2022-03-10 17:21:04,493:INFO:Finalizing AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:21:04,493:INFO:Initializing create_model()
+2022-03-10 17:21:04,493:INFO:create_model(self=<pycaret.internal.pycaret_experiment.time_series_experiment.TSForecastingExperiment object at 0x000002A237600B20>, estimator=AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, kwargs={})
+2022-03-10 17:21:04,493:INFO:Checking exceptions
+2022-03-10 17:21:04,494:INFO:Importing libraries
+2022-03-10 17:21:04,494:INFO:Copying training dataset
+2022-03-10 17:21:04,494:INFO:Defining folds
+2022-03-10 17:21:04,494:INFO:Declaring metric variables
+2022-03-10 17:21:04,494:INFO:Importing untrained model
+2022-03-10 17:21:04,494:INFO:Declaring custom model
+2022-03-10 17:21:04,495:INFO:Auto ARIMA Imported successfully
+2022-03-10 17:21:04,495:INFO:Starting cross validation
+2022-03-10 17:21:04,496:INFO:Cross validating with ExpandingWindowSplitter(fh=array([1, 2, 3]), initial_window=None,
+            step_length=3), n_jobs=-1
+2022-03-10 17:21:27,702:INFO:Calculating mean and std
+2022-03-10 17:21:27,703:INFO:Creating metrics dataframe
+2022-03-10 17:21:27,753:INFO:Finalizing model
+2022-03-10 17:21:33,040:INFO:Uploading results into container
+2022-03-10 17:21:33,040:INFO:master_model_container: 0
+2022-03-10 17:21:33,040:INFO:display_container: 2
+2022-03-10 17:21:33,040:INFO:AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:21:33,040:INFO:create_model() successfully completed......................................
+2022-03-10 17:21:33,341:INFO:master_model_container: 0
+2022-03-10 17:21:33,341:INFO:display_container: 1
+2022-03-10 17:21:33,342:INFO:AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:21:33,342:INFO:finalize_model() succesfully completed......................................
+2022-03-10 17:22:25,872:INFO:Initializing finalize_model()
+2022-03-10 17:22:25,872:INFO:finalize_model(self=<pycaret.internal.pycaret_experiment.time_series_experiment.TSForecastingExperiment object at 0x000002A237600B20>, estimator=AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...), fit_kwargs=None, groups=None, model_only=True, display=None)
+2022-03-10 17:22:25,873:INFO:Finalizing AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:22:25,873:INFO:Initializing create_model()
+2022-03-10 17:22:25,874:INFO:create_model(self=<pycaret.internal.pycaret_experiment.time_series_experiment.TSForecastingExperiment object at 0x000002A237600B20>, estimator=AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, kwargs={})
+2022-03-10 17:22:25,874:INFO:Checking exceptions
+2022-03-10 17:22:25,874:INFO:Importing libraries
+2022-03-10 17:22:25,874:INFO:Copying training dataset
+2022-03-10 17:22:25,874:INFO:Defining folds
+2022-03-10 17:22:25,874:INFO:Declaring metric variables
+2022-03-10 17:22:25,874:INFO:Importing untrained model
+2022-03-10 17:22:25,874:INFO:Declaring custom model
+2022-03-10 17:22:25,875:INFO:Auto ARIMA Imported successfully
+2022-03-10 17:22:25,876:INFO:Starting cross validation
+2022-03-10 17:22:25,876:INFO:Cross validating with ExpandingWindowSplitter(fh=array([1, 2, 3]), initial_window=None,
+            step_length=3), n_jobs=-1
+2022-03-10 17:22:48,689:INFO:Calculating mean and std
+2022-03-10 17:22:48,689:INFO:Creating metrics dataframe
+2022-03-10 17:22:48,750:INFO:Finalizing model
+2022-03-10 17:22:54,446:INFO:Uploading results into container
+2022-03-10 17:22:54,446:INFO:master_model_container: 0
+2022-03-10 17:22:54,446:INFO:display_container: 2
+2022-03-10 17:22:54,447:INFO:AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:22:54,447:INFO:create_model() successfully completed......................................
+2022-03-10 17:22:54,852:INFO:master_model_container: 0
+2022-03-10 17:22:54,852:INFO:display_container: 1
+2022-03-10 17:22:54,852:INFO:AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:22:54,853:INFO:finalize_model() succesfully completed......................................
+2022-03-10 17:24:46,431:INFO:Initializing finalize_model()
+2022-03-10 17:24:46,431:INFO:finalize_model(self=<pycaret.internal.pycaret_experiment.time_series_experiment.TSForecastingExperiment object at 0x000002A237600B20>, estimator=AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...), fit_kwargs=None, groups=None, model_only=True, display=None)
+2022-03-10 17:24:46,432:INFO:Finalizing AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:24:46,432:INFO:Initializing create_model()
+2022-03-10 17:24:46,433:INFO:create_model(self=<pycaret.internal.pycaret_experiment.time_series_experiment.TSForecastingExperiment object at 0x000002A237600B20>, estimator=AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, kwargs={})
+2022-03-10 17:24:46,433:INFO:Checking exceptions
+2022-03-10 17:24:46,433:INFO:Importing libraries
+2022-03-10 17:24:46,433:INFO:Copying training dataset
+2022-03-10 17:24:46,433:INFO:Defining folds
+2022-03-10 17:24:46,433:INFO:Declaring metric variables
+2022-03-10 17:24:46,433:INFO:Importing untrained model
+2022-03-10 17:24:46,433:INFO:Declaring custom model
+2022-03-10 17:24:46,434:INFO:Auto ARIMA Imported successfully
+2022-03-10 17:24:46,435:INFO:Starting cross validation
+2022-03-10 17:24:46,435:INFO:Cross validating with ExpandingWindowSplitter(fh=array([1, 2, 3]), initial_window=None,
+            step_length=3), n_jobs=-1
+2022-03-10 17:25:09,021:INFO:Calculating mean and std
+2022-03-10 17:25:09,021:INFO:Creating metrics dataframe
+2022-03-10 17:25:09,070:INFO:Finalizing model
+2022-03-10 17:25:14,587:INFO:Uploading results into container
+2022-03-10 17:25:14,587:INFO:master_model_container: 0
+2022-03-10 17:25:14,587:INFO:display_container: 2
+2022-03-10 17:25:14,588:INFO:AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:25:14,588:INFO:create_model() successfully completed......................................
+2022-03-10 17:25:14,908:INFO:master_model_container: 0
+2022-03-10 17:25:14,908:INFO:display_container: 1
+2022-03-10 17:25:14,909:INFO:AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:25:14,909:INFO:finalize_model() succesfully completed......................................
+2022-03-10 17:26:26,548:INFO:Initializing finalize_model()
+2022-03-10 17:26:26,548:INFO:finalize_model(self=<pycaret.internal.pycaret_experiment.time_series_experiment.TSForecastingExperiment object at 0x000002A237600B20>, estimator=AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...), fit_kwargs=None, groups=None, model_only=True, display=None)
+2022-03-10 17:26:26,549:INFO:Finalizing AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:26:26,550:INFO:Initializing create_model()
+2022-03-10 17:26:26,550:INFO:create_model(self=<pycaret.internal.pycaret_experiment.time_series_experiment.TSForecastingExperiment object at 0x000002A237600B20>, estimator=AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, kwargs={})
+2022-03-10 17:26:26,550:INFO:Checking exceptions
+2022-03-10 17:26:26,550:INFO:Importing libraries
+2022-03-10 17:26:26,550:INFO:Copying training dataset
+2022-03-10 17:26:26,550:INFO:Defining folds
+2022-03-10 17:26:26,550:INFO:Declaring metric variables
+2022-03-10 17:26:26,550:INFO:Importing untrained model
+2022-03-10 17:26:26,551:INFO:Declaring custom model
+2022-03-10 17:26:26,552:INFO:Auto ARIMA Imported successfully
+2022-03-10 17:26:26,552:INFO:Starting cross validation
+2022-03-10 17:26:26,553:INFO:Cross validating with ExpandingWindowSplitter(fh=array([1, 2, 3]), initial_window=None,
+            step_length=3), n_jobs=-1
+2022-03-10 17:26:45,762:INFO:Calculating mean and std
+2022-03-10 17:26:45,762:INFO:Creating metrics dataframe
+2022-03-10 17:26:45,818:INFO:Finalizing model
+2022-03-10 17:26:51,082:INFO:Uploading results into container
+2022-03-10 17:26:51,083:INFO:master_model_container: 0
+2022-03-10 17:26:51,083:INFO:display_container: 2
+2022-03-10 17:26:51,083:INFO:AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:26:51,083:INFO:create_model() successfully completed......................................
+2022-03-10 17:26:51,387:INFO:master_model_container: 0
+2022-03-10 17:26:51,387:INFO:display_container: 1
+2022-03-10 17:26:51,388:INFO:AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:26:51,388:INFO:finalize_model() succesfully completed......................................
+2022-03-10 17:27:08,467:INFO:Initializing finalize_model()
+2022-03-10 17:27:08,467:INFO:finalize_model(self=<pycaret.internal.pycaret_experiment.time_series_experiment.TSForecastingExperiment object at 0x000002A237600B20>, estimator=AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...), fit_kwargs=None, groups=None, model_only=True, display=None)
+2022-03-10 17:27:08,468:INFO:Finalizing AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:27:08,468:INFO:Initializing create_model()
+2022-03-10 17:27:08,468:INFO:create_model(self=<pycaret.internal.pycaret_experiment.time_series_experiment.TSForecastingExperiment object at 0x000002A237600B20>, estimator=AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, kwargs={})
+2022-03-10 17:27:08,468:INFO:Checking exceptions
+2022-03-10 17:27:08,469:INFO:Importing libraries
+2022-03-10 17:27:08,469:INFO:Copying training dataset
+2022-03-10 17:27:08,469:INFO:Defining folds
+2022-03-10 17:27:08,469:INFO:Declaring metric variables
+2022-03-10 17:27:08,469:INFO:Importing untrained model
+2022-03-10 17:27:08,469:INFO:Declaring custom model
+2022-03-10 17:27:08,470:INFO:Auto ARIMA Imported successfully
+2022-03-10 17:27:08,471:INFO:Starting cross validation
+2022-03-10 17:27:08,472:INFO:Cross validating with ExpandingWindowSplitter(fh=array([1, 2, 3]), initial_window=None,
+            step_length=3), n_jobs=-1
+2022-03-10 17:27:27,881:INFO:Calculating mean and std
+2022-03-10 17:27:27,882:INFO:Creating metrics dataframe
+2022-03-10 17:27:27,934:INFO:Finalizing model
+2022-03-10 17:27:33,386:INFO:Uploading results into container
+2022-03-10 17:27:33,386:INFO:master_model_container: 0
+2022-03-10 17:27:33,386:INFO:display_container: 2
+2022-03-10 17:27:33,387:INFO:AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:27:33,387:INFO:create_model() successfully completed......................................
+2022-03-10 17:27:33,689:INFO:master_model_container: 0
+2022-03-10 17:27:33,689:INFO:display_container: 1
+2022-03-10 17:27:33,690:INFO:AutoARIMA(D=None, alpha=0.05, d=None, error_action='warn',
+          information_criterion='aic', max_D=1, max_P=2, max_Q=2, max_d=2,
+          max_order=5, max_p=5, max_q=5, maxiter=50, method='lbfgs', n_fits=10,
+          n_jobs=1, offset_test_args=None, out_of_sample_size=0, random=False,
+          random_state=123, scoring='mse', scoring_args=None, seasonal=True,
+          seasonal_test='ocsb', seasonal_test_args=None, sp=12, start_P=1,
+          start_Q=1, start_p=2, start_params=None, ...)
+2022-03-10 17:27:33,690:INFO:finalize_model() succesfully completed......................................
