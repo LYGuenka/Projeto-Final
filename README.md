@@ -1,5 +1,9 @@
 # Projeto-Final
  
+Introdução:
+    - O que é taxa de mortalidade?
+        A taxa de mortalidade é um índice no qual é obtido pela relação de óbitos de uma população em um espaço de tempo (um ano normalmente). Esses óbitos podem ser causados por diversos fatores, sendo doenças, condições de saúde da pessoa, fenômenos climatológicos, entre outros.
+
 Descrição:
     - Analisar o porquê da mortalidade de 2016~2019 se comportou assim;
     - Tentar prever a mortalidade e suas estatisticas de 2020;
